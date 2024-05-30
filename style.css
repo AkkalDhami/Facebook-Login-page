@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f0f2f5;
+}
+form{
+    text-align: center;
+}
+.facebook_login{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.facebook h2 {
+  color: #1c1e21;
+  font: 24px Arial, Helvetica, sans-serif;
+  padding-right: 20px;
+}
+.facebook img {
+  height: 106px;
+  mix-blend-mode: darken;
+}
+.login_page {
+  background: #ffffff;
+  height: 300px;
+  margin: auto;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  border-radius: 6px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#email {
+  width: 280px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+.email {
+  padding: 6px 0px;
+}
+#password {
+  width: 280px;
+  padding: 14px 16px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+.password {
+  padding: 6px 0px;
+}
+.login {
+
+  max-width:313px;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding:0 16px;
+  cursor: pointer;
+}
+.login:hover{
+    background-color: #2f79f1;
+}
+.forgotten_password {
+  margin: 16px 0px 0px;
+}
+.forgotten_password a {
+  color: #0866ff;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+  text-decoration: #0866ff underline;
+}
+form{
+    padding-right: 50px;
+}
+hr {
+    width: 300px;
+    margin: 20px 16px;
+    padding: 0 10px;
+}
+.new_account {
+    margin-bottom: 20px;
+    padding: 6px 0px 0px;
+}
+.new_account a#new-account {
+    height: 48px;
+    width: 192px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #36a420;
+    padding: 13px 16px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 4px;
+}
+.login_page .new_account a#new-account:hover {
+  background-color: #42b72a;
+}
+@media only screen and (max-width: 900px) {
+  .facebook_login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .facebook_login {
+    height: 496px;
+    margin: 0 40px;
+    width: auto;
+  }
+  .facebook h2{
+    padding-bottom: 6px;
+  }
+  .facebook img {
+    margin: -25px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .facebook img {
+    margin: -25px;
+    text-align: center;
+  }
+  .facebook h2{
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .facebook h2 {
+    padding-bottom: 10;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  h2 {
+    font-size: 20px;
+    line-height: 28px;
+    width: auto;
+  }
+  .facebook img{
+    margin: -25px;
+  }
+  .facebook h2{
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (max-width: 420px){
+  .facebook_login{
+    max-width: 320px;
+    width: 100%;
+    margin-left: 60px;
+  }
+  .facebook img{
+    margin: -25px;
+  }
+  .facebook h2{
+    padding-bottom: 6px;
+  }
+  #email {
+    width: 300px;
+    padding: 16px 16px;
+    font-size: 16px;
+  }
+ .login{
+  max-width: 333px;
+  width: 100%;
+ }
+  #password {
+    width: 300px;
+    padding: 16px 16px;
+    font-size: 16px;
+  }
+  .forgotten_password a{
+    font-size: 18px;
+  }
+  .new_account a#new-account{
+    font-size: 16px;
+  }
+}
